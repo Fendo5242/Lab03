@@ -1,0 +1,23 @@
+﻿<Window x:Class="Lab03.Opciones"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab03"
+        mc:Ignorable="d"
+        Title="Opciones" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <StackPanel Height="320" Width="700" Background="ForestGreen" Margin="50" HorizontalAlignment="Center">
+                <StackPanel Margin="50">
+                    <Label HorizontalAlignment="Center" FontSize="30" FontFamily="Consolas" FontStyle="Oblique" Foreground="White" FontWeight="Bold">ESTUDIANTES</Label>
+                    <Label FontWeight="Bold" HorizontalAlignment="Center">Escoja el formato de listado:</Label>
+                    <Button Width="180" Height="30" Margin="5" Background="Yellow" FontWeight="Bold" Click="Button_Click_2" >DATA TABLE CONECTADO</Button>
+                    <Button Width="180" Height="30" Margin="5" Background="Yellow" FontWeight="Bold" Click="Button_Click">DATA TABLE DESCONECTADO</Button>
+                    <Button Width="180" Height="30" Margin="5" Background="Yellow" FontWeight="Bold" Click="Button_Click_1">DATA READER CONECTADO</Button>
+                    <Button Width="180" Height="30" Margin="5" Background="Yellow" FontWeight="Bold" >DATA READER DESCONECTADO</Button>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
