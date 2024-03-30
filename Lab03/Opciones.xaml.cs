@@ -44,5 +44,11 @@ namespace Lab03
             DataTableConect dataTableConectado = new DataTableConect();
             dataTableConectado.ShowDialog();
         }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            DataReaderDesconectado dataReader = new DataReaderDesconectado();
+            dataReader.ShowDialog();
+        }
     }
 }

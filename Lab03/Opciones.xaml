@@ -15,7 +15,7 @@
                     <Button Width="180" Height="30" Margin="5" Background="Yellow" FontWeight="Bold" Click="Button_Click_2" >DATA TABLE CONECTADO</Button>
                     <Button Width="180" Height="30" Margin="5" Background="Yellow" FontWeight="Bold" Click="Button_Click">DATA TABLE DESCONECTADO</Button>
                     <Button Width="180" Height="30" Margin="5" Background="Yellow" FontWeight="Bold" Click="Button_Click_1">DATA READER CONECTADO</Button>
-                    <Button Width="180" Height="30" Margin="5" Background="Yellow" FontWeight="Bold" >DATA READER DESCONECTADO</Button>
+                    <Button Width="180" Height="30" Margin="5" Background="Yellow" FontWeight="Bold" Click="Button_Click_3" >DATA READER DESCONECTADO</Button>
                 </StackPanel>
             </StackPanel>
         </StackPanel>
